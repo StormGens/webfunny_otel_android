@@ -58,7 +58,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("maven") {
                 from(components.findByName(variantToPublish))
-                groupId = "com.webfunny"
+                groupId = "com.github.stormgens"
                 artifactId = base.archivesName.get()
 
                 afterEvaluate {

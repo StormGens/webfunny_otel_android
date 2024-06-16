@@ -2,6 +2,7 @@ plugins {
     id("com.android.library")
     id("webfunny.android-library-conventions")
     id("webfunny.errorprone-conventions")
+    id("com.github.dcendents.android-maven")
 }
 
 android {
